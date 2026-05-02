@@ -5,6 +5,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import gsap from "@/lib/gsap";
+import Link from "next/link";
+import { FiSend } from "react-icons/fi";
+import { FaFileAlt } from "react-icons/fa";
 
 export default function Hero() {
     const containerRef = useRef(null);
@@ -106,13 +109,23 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="mt-6 flex gap-3">
-                <Button className="hero-btn rounded-lg px-6">
-                    Resume
-                </Button>
+                <a
+                    href="https://drive.google.com/file/d/191MkUJSiey3xPidkFO1Ez_VaaD5Xj3bX/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Button className="hero-btn rounded-lg px-6">
+                        <FaFileAlt className="text-base" />
+                        Resume
+                    </Button>
+                </a>
 
-                <Button variant="outline" className="hero-btn rounded-lg px-6">
-                    Contact Me
-                </Button>
+                <Link href="#contact">
+                    <Button variant="outline" className="hero-btn rounded-lg px-6 flex items-center gap-2">
+                        <FiSend className="text-base" />
+                        Contact Me
+                    </Button>
+                </Link>
             </div>
         </section>
     );
