@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import gsap from "@/lib/gsap";
 import Link from "next/link";
-import { FiSend } from "react-icons/fi";
+import { FiArrowUp, FiSend } from "react-icons/fi";
 import { FaFileAlt } from "react-icons/fa";
 
 export default function Hero() {
@@ -95,10 +95,16 @@ export default function Hero() {
 
             {/* Name */}
             <h1 className="hero-title mt-6 text-4xl md:text-6xl font-bold tracking-tight overflow-hidden">
-                <span className="inline-block">Hi,</span>{" "}
-                <span className="inline-block">I’m</span>{" "}
+                {/* <span className="inline-block">Hi,</span>{" "}
+                <span className="inline-block">I’m</span>{" "} */}
                 <span className="inline-block text-primary">Md.</span>{" "}
                 <span className="inline-block text-primary">Nahid</span>
+            </h1>
+
+
+            <h1 className="hero-title mt-6 text-xl md:text-2xl font-bold tracking-tight overflow-hidden">
+                <span className="inline-block text-primary">Junior</span>{" "}
+                <span className="inline-block text-primary">Developer</span>
             </h1>
 
             {/* Role */}
@@ -127,6 +133,20 @@ export default function Hero() {
                     </Button>
                 </Link>
             </div>
+
+            {/* SCROLL TO TOP BUTTON */}
+            <a
+                href="#home"
+                className="fixed bottom-6 right-6 z-50 group"
+            >
+                <div className="w-12 h-12 rounded-full bg-background border border-border flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-300">
+                    <FiArrowUp className="text-foreground group-hover:text-primary transition" />
+                </div>
+
+                {/* glow effect */}
+                <span className="absolute inset-0 rounded-full bg-primary/10 opacity-0 group-hover:opacity-100 transition" />
+            </a>
+
         </section>
     );
 }
