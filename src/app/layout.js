@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Md. Nahid | Frontend Developer",
+  title: "Md. Nahid | Junior Developer",
   description: "Portfolio of Md. Panda — Frontend Developer specializing in Next.js, React and modern UI/UX experiences.",
 };
 

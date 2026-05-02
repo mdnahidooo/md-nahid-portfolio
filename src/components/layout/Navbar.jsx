@@ -46,7 +46,7 @@ export default function Navbar() {
                             className="group relative text-lg md:text-xl tracking-wide text-foreground/90 transition-colors"
                         >
                             <span className="font-[Style_Script] text-[22px] md:text-[26px]">
-                                Md. Panda
+                                Md. Nahid
                             </span>
 
                             {/* signature underline stroke */}
