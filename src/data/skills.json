@@ -1,0 +1,56 @@
+[
+  {
+    "name": "HTML",
+    "level": 95,
+    "icon": "🌐",
+    "color": "#E34F26"
+  },
+  {
+    "name": "CSS / Tailwind",
+    "level": 90,
+    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "color": "#38BDF8"
+  },
+  {
+    "name": "DaisyUI",
+    "level": 90,
+    "iconUrl": "https://cdn.simpleicons.org/daisyui/5A0EF8",
+    "color": "#5A0EF8"
+  },
+  {
+    "name": "JavaScript",
+    "level": 85,
+    "icon": "⚡",
+    "color": "#F7DF1E"
+  },
+  {
+    "name": "React.js",
+    "level": 88,
+    "iconUrl": "https://cdn.simpleicons.org/react/61DAFB",
+    "color": "#61DAFB"
+  },
+  {
+    "name": "Next.js",
+    "level": 85,
+    "iconUrl": "https://cdn.simpleicons.org/nextdotjs/FFFFFF",
+    "color": "#FFFFFF"
+  },
+  {
+    "name": "Hero UI",
+    "level": 65,
+    "icon": "🧩",
+    "color": "#A855F7"
+  },
+  {
+    "name": "Better Auth",
+    "level": 50,
+    "icon": "🔐",
+    "color": "#F97316"
+  },
+  {
+    "name": "MongoDB",
+    "level": 65,
+    "iconUrl": "https://cdn.simpleicons.org/mongodb/4DB33D",
+    "color": "#4DB33D"
+  }
+]

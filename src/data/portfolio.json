@@ -1,0 +1,41 @@
+{
+  "personal": {
+    "name": "Md. Panda",
+    "title": "Frontend Web Developer",
+    "bio": "I build modern, responsive, and high-performance web applications using React and Next.js.",
+    "location": "Bangladesh",
+    "image": "/images/profile.png"
+  },
+
+  "social": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername"
+  },
+
+  "skills": [
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "React.js",
+    "Next.js"
+  ],
+
+  "projects": [
+    {
+      "title": "KeenKeeper",
+      "description": "A web app for tracking relationships and communication.",
+      "tech": ["Next.js", "Tailwind"],
+      "github": "https://github.com/yourusername/keenkepper",
+      "live": "https://your-live-link.com"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Sc in CSE",
+      "institution": "Daffodil International University",
+      "year": "2022 - 2025"
+    }
+  ]
+}

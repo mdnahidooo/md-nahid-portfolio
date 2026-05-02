@@ -1,0 +1,27 @@
+[
+  {
+    "title": "KeenKeeper",
+    "description": "A relationship tracking web app to maintain meaningful connections.",
+    "tech": ["Next.js", "Tailwind", "MongoDB"],
+    "image": "https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwcHJvamVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "github": "https://github.com/your-repo",
+    "live": "https://your-live-site.com"
+  },
+  {
+    "title": "Tile Gallery",
+    "description": "Modern responsive tile showcase with filtering and search.",
+    "tech": ["React", "Next.js", "CSS"],
+    "image": "https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwcHJvamVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "github": "https://github.com/your-repo",
+    "live": "https://your-live-site.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "Personal portfolio with animations and modern UI.",
+    "tech": ["Next.js", "GSAP", "Framer Motion"],
+    "image": "https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwcHJvamVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "github": "https://github.com/your-repo",
+    "live": "https://your-live-site.com"
+}
+]
+// "image": "/projects/portfolio.png",
