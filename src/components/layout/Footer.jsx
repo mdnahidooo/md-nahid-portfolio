@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "@/lib/gsap";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
     const footerRef = useRef(null);
@@ -42,18 +42,17 @@ export default function Footer() {
                     {/* LEFT - BRAND */}
                     <div className="footer-animate">
                         <h2 className="text-2xl font-bold tracking-tight">
-                            Md. Panda<span className="text-primary">.</span>
+                            Md. Nahid<span className="text-primary"></span>
                         </h2>
 
                         <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
-                            Crafting modern, animated and high-performance web experiences
-                            using Next.js, GSAP and Framer Motion.
+                            Where code meets motion, and ideas become experience
                         </p>
                     </div>
 
                     {/* CENTER - NAV (FIXED CENTER ALIGN) */}
                     <div className="footer-animate flex flex-col items-center text-center">
-                        <h3 className="text-sm font-semibold mb-4 text-muted-foreground">
+                        <h3 className="text-sm font-semibold mb-4 text-white">
                             Navigation
                         </h3>
 
@@ -80,21 +79,22 @@ export default function Footer() {
 
                     {/* RIGHT - SOCIAL (FIXED RIGHT ALIGN) */}
                     <div className="footer-animate flex flex-col items-end text-right">
-                        <h3 className="text-sm font-semibold mb-4 text-muted-foreground">
-                            Connect
+                        <h3 className="text-sm font-semibold mb-4 text-white">
+                            Social Info
                         </h3>
 
                         <div className="flex gap-4">
+
                             <a
-                                href="https://github.com"
+                                href="https://www.facebook.com/md.nahidooo/"
                                 target="_blank"
                                 className="p-3 rounded-xl bg-white/5 hover:bg-white/10 transition group"
                             >
-                                <FaGithub className="group-hover:text-primary transition" />
+                                <FaFacebook className="group-hover:text-blue-500 transition" />
                             </a>
 
                             <a
-                                href="https://linkedin.com"
+                                href="https://www.linkedin.com/in/md-nahidul-islam-nahid/"
                                 target="_blank"
                                 className="p-3 rounded-xl bg-white/5 hover:bg-blue-500/20 transition group"
                             >
@@ -102,12 +102,13 @@ export default function Footer() {
                             </a>
 
                             <a
-                                href="https://twitter.com"
+                                href="https://www.instagram.com/md_nahidooo/"
                                 target="_blank"
-                                className="p-3 rounded-xl bg-white/5 hover:bg-sky-500/20 transition group"
+                                className="p-3 rounded-xl bg-white/5 hover:bg-white/10 transition group"
                             >
-                                <FaTwitter className="group-hover:text-sky-400 transition" />
+                                <FaInstagram className="group-hover:text-pink-500 transition" />
                             </a>
+
                         </div>
                     </div>
                 </div>
@@ -116,15 +117,18 @@ export default function Footer() {
                 <div className="footer-animate my-10 h-px bg-linear-to-r from-transparent via-white/20 to-transparent" />
 
                 {/* BOTTOM */}
-                <div className="footer-animate flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
+                <div className="footer-animate flex flex-col md:flex-row items-center justify-center gap-4 text-xs text-muted-foreground">
 
                     <p>
-                        © {new Date().getFullYear()} Md. Nahid. All rights reserved.
+                        © {new Date().getFullYear()} All rights reserved by{" "}
+                        <span className="text-blue-400 text-md hover:cursor transition-colors">
+                            Md. Nahidul Islam Nahid
+                        </span>
                     </p>
 
-                    <p className="text-primary/70">
+                    {/* <p className="text-primary/70">
                         Where code meets motion, and ideas become experience
-                    </p>
+                    </p> */}
 
                 </div>
             </div>

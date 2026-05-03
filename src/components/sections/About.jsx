@@ -2,6 +2,8 @@
 
 import { useEffect, useRef } from "react";
 import gsap from "@/lib/gsap";
+import { FaBriefcase, FaUserGraduate } from "react-icons/fa";
+import { FiTarget } from "react-icons/fi";
 
 export default function About() {
     const sectionRef = useRef(null);
@@ -62,8 +64,7 @@ export default function About() {
                     </p>
 
                     <p className="mt-4 text-muted-foreground leading-relaxed">
-                        I specialize in animation-driven UI, smooth user experiences, and
-                        scalable frontend architecture.
+                        I am a junior web developer passionate about building modern, responsive web applications with clean UI and smooth user experiences, while continuously learning and improving my skills.
                     </p>
                 </div>
 
@@ -72,40 +73,63 @@ export default function About() {
 
                     {/* EDUCATION */}
                     <div className="about-card p-6 rounded-xl bg-secondary border border-border hover:border-primary/40 transition">
-                        <h3 className="font-semibold text-lg">🎓 Education</h3>
+                        <h3 className="font-semibold text-lg flex items-center gap-2">
+                            <FaUserGraduate className="text-primary" />
+                            Education
+                        </h3>
 
-                        <div className="mt-3 space-y-3 text-sm text-muted-foreground">
+                        {/* TIMELINE WRAPPER */}
+                        <div className="mt-6 relative pl-6">
 
-                            <div>
-                                <p className="font-medium text-foreground">
-                                    Daffodil International University
-                                </p>
-                                <p>B.Sc in Computer Science & Engineering (CSE)</p>
-                                <p>2022 – 2025 • CGPA: 3.51</p>
+                            {/* vertical line */}
+                            <div className="absolute left-2 top-0 bottom-0 w-0.5 bg-border" />
+
+                            <div className="space-y-6 text-sm text-muted-foreground">
+
+                                {/* UNIVERSITY */}
+                                <div className="relative">
+                                    {/* dot */}
+                                    <span className="absolute -left-4.5 top-1 w-3 h-3 rounded-full bg-primary shadow-md" />
+
+                                    <p className="font-medium text-foreground">
+                                        Daffodil International University
+                                    </p>
+                                    <p>B.Sc in Computer Science & Engineering (CSE)</p>
+                                    <p>2022 – 2025 • CGPA: 3.51</p>
+                                </div>
+
+                                {/* HSC */}
+                                <div className="relative">
+                                    <span className="absolute -left-4.5 top-1 w-3 h-3 rounded-full bg-blue-400 shadow-md" />
+
+                                    <p className="font-medium text-foreground">
+                                        Savar Cantonment Public School & College
+                                    </p>
+                                    <p>Higher Secondary Certificate (Science)</p>
+                                    <p>2020 • GPA: 5.00</p>
+                                </div>
+
+                                {/* SSC */}
+                                <div className="relative">
+                                    <span className="absolute -left-4.5 top-1 w-3 h-3 rounded-full bg-green-400 shadow-md" />
+
+                                    <p className="font-medium text-foreground">
+                                        Police Lines Adarsh High School, Tangail
+                                    </p>
+                                    <p>Secondary School Certificate (Science)</p>
+                                    <p>2018 • GPA: 4.89</p>
+                                </div>
+
                             </div>
-
-                            <div>
-                                <p className="font-medium text-foreground">
-                                    Savar Cantonment Public School & College
-                                </p>
-                                <p>Higher Secondary Certificate (Science)</p>
-                                <p>2020 • GPA: 5.00</p>
-                            </div>
-
-                            <div>
-                                <p className="font-medium text-foreground">
-                                    Police Lines Adarsh High School, Tangail
-                                </p>
-                                <p>Secondary School Certificate (Science)</p>
-                                <p>2018 • GPA: 4.89</p>
-                            </div>
-
                         </div>
                     </div>
 
                     {/* EXPERIENCE */}
                     <div className="about-card p-6 rounded-xl bg-secondary border border-border hover:border-primary/40 transition">
-                        <h3 className="font-semibold text-lg">💼 Experience</h3>
+                        <h3 className="font-semibold text-lg flex items-center gap-2">
+                            <FaBriefcase className="text-primary" />
+                            Experience
+                        </h3>
                         <p className="text-sm text-muted-foreground mt-2">
                             Working with modern frontend technologies including React, Next.js,
                             Tailwind CSS and building responsive UI systems.
@@ -114,10 +138,12 @@ export default function About() {
 
                     {/* FOCUS */}
                     <div className="about-card p-6 rounded-xl bg-secondary border border-border hover:border-primary/40 transition">
-                        <h3 className="font-semibold text-lg">🚀 Focus</h3>
+                        <h3 className="font-semibold text-lg flex items-center gap-2">
+                            <FiTarget className="text-primary" />
+                            Focus
+                        </h3>
                         <p className="text-sm text-muted-foreground mt-2">
-                            Creating animated, scalable and performance-optimized web
-                            applications with clean architecture.
+                            I am a junior developer focused on building responsive and user-friendly web applications, with a strong focus on clean code, performance, and continuous learning.
                         </p>
                     </div>
 

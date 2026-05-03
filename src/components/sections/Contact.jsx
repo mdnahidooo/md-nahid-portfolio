@@ -89,7 +89,7 @@ export default function Contact() {
 
             {/* TITLE */}
             <h2 className="contact-title text-3xl md:text-4xl font-bold text-center">
-                Get In <span className="text-primary">Touch</span>
+                Let's work <span className="text-primary">together</span>
             </h2>
 
             <div className="mt-14 grid md:grid-cols-2 gap-10">
@@ -147,7 +147,7 @@ export default function Contact() {
                         <div>
                             <h3 className="font-semibold">Location</h3>
                             <p className="text-sm text-muted-foreground">
-                                Dhaka, Bangladesh
+                                Savar, Dhaka, Bangladesh
                             </p>
                         </div>
                     </div>
@@ -158,7 +158,7 @@ export default function Contact() {
                         <div>
                             <h3 className="font-semibold">Email</h3>
                             <p className="text-sm text-muted-foreground">
-                                my85anonymous@gmail.com
+                                md.nahidofficial.cse@gmail.com
                             </p>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ export default function Contact() {
 
                             {/* LINKEDIN */}
                             <a
-                                href="https://linkedin.com"
+                                href="https://www.linkedin.com/in/md-nahidul-islam-nahid/"
                                 target="_blank"
                                 className="flex items-center gap-2 px-3 py-2 rounded-md bg-blue-500/10 text-blue-400 hover:bg-blue-500/20 transition"
                             >
