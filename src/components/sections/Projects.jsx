@@ -67,7 +67,7 @@ export default function Projects() {
                                 {project.title}
                             </h3>
 
-                            <p className="text-sm text-muted-foreground mt-2">
+                            <p className="text-sm text-muted-foreground mt-2 text-justify">
                                 {project.description}
                             </p>
 

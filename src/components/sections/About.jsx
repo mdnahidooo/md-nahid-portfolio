@@ -58,14 +58,17 @@ export default function About() {
                         About <span className="text-primary">Me</span>
                     </h2>
 
-                    <p className="mt-4 text-muted-foreground leading-relaxed">
-                        I am a Frontend Developer focused on building modern, high-performance
-                        web applications using Next.js and React.
-                    </p>
+                    <div className="text-muted-foreground leading-relaxed text-justify">
 
-                    <p className="mt-4 text-muted-foreground leading-relaxed">
-                        I am a junior web developer passionate about building modern, responsive web applications with clean UI and smooth user experiences, while continuously learning and improving my skills.
-                    </p>
+                        <p className="mt-4">
+                            I am a web developer focused on building modern, responsive, and high-performance web applications using Next.js and React. I recently completed my B.Sc in Computer Science & Engineering from Daffodil International University (December 2025), which strengthened my foundation in software development and problem-solving.
+                        </p>
+
+                        <p className="mt-4">
+                            I enjoy creating clean user interfaces and smooth user experiences while continuously improving my frontend skills. Outside of development, I like playing football and staying active, which helps me maintain creativity and balance in my work.
+                        </p>
+
+                    </div>
                 </div>
 
                 {/* RIGHT SIDE */}

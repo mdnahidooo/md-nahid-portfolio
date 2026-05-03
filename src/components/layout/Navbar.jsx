@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import ModeToggle from "../ModeToggle";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -39,7 +40,6 @@ export default function Navbar() {
                             <Menu size={22} />
                         </button>
 
-                        {/* LEFT - Logo */}
                         {/* LEFT - Logo */}
                         <Link
                             href="#home"
@@ -75,9 +75,11 @@ export default function Navbar() {
                         {/* RIGHT SIDE */}
                         <div className="ml-auto flex items-center gap-3">
                             <ModeToggle />
-                            <Button className="rounded-lg px-5 hover:scale-105 transition-transform duration-300">
-                                Hire Me
-                            </Button>
+                            <Link href="#contact">
+                                <Button className="rounded-lg px-5 hover:scale-105 transition-transform duration-300">
+                                    Hire Me
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -101,25 +103,54 @@ export default function Navbar() {
                         }`}
                 >
                     {/* close */}
-                    <button
-                        onClick={() => setOpen(false)}
-                        className="mb-6"
-                    >
+                    <button onClick={() => setOpen(false)} className="mb-6">
                         <X />
                     </button>
 
-                    {/* links */}
+                    {/* links (WITH UNDERLINE ANIMATION) */}
                     <div className="flex flex-col gap-5">
                         {navItems.map((item) => (
                             <Link
                                 key={item.name}
                                 href={item.href}
                                 onClick={() => setOpen(false)}
-                                className="text-sm text-muted-foreground hover:text-primary transition"
+                                className="relative text-sm text-muted-foreground hover:text-primary transition group"
                             >
                                 {item.name}
+
+                                {/* underline animation */}
+                                <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-primary transition-all duration-300 group-hover:w-full" />
                             </Link>
                         ))}
+                    </div>
+
+                    {/* SOCIAL (BOTTOM PREMIUM STYLE) */}
+                    <div className="absolute bottom-6 left-6 flex gap-4">
+
+                        <a
+                            href="https://www.facebook.com/md.nahidooo/"
+                            target="_blank"
+                            className="p-3 rounded-xl bg-white/5 hover:bg-white/10 transition group"
+                        >
+                            <FaFacebook className="group-hover:text-blue-500 transition" />
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/md-nahidul-islam-nahid/"
+                            target="_blank"
+                            className="p-3 rounded-xl bg-white/5 hover:bg-blue-500/20 transition group"
+                        >
+                            <FaLinkedin className="group-hover:text-blue-400 transition" />
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/md_nahidooo/"
+                            target="_blank"
+                            className="p-3 rounded-xl bg-white/5 hover:bg-white/10 transition group"
+                        >
+                            <FaInstagram className="group-hover:text-pink-500 transition" />
+                        </a>
+
                     </div>
                 </div>
             </div>

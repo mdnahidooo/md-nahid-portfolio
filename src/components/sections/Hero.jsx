@@ -109,8 +109,7 @@ export default function Hero() {
 
             {/* Role */}
             <p className="hero-desc mt-4 text-muted-foreground text-sm md:text-lg max-w-xl">
-                Frontend Developer crafting modern, animated and scalable web experiences
-                using Next.js, React and MongoDB.
+                Building modern, responsive web experiences using Next.js and React with a focus on performance, usability, and clean frontend architecture.
             </p>
 
             {/* Buttons */}

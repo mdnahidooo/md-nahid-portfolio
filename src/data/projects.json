@@ -1,27 +1,34 @@
 [
+    {
+    "title": "Tile Gallery",
+    "description": "A modern and responsive Tile Gallery Website built with Next.js. Users can browse, search, and explore detailed tile information with authentication, dynamic routing for modern web development.",
+    "tech": ["React", "Next.js", "HeroUi", "MongoDB", "BetterAuth"],
+    "image": "/assets/tiles-gallery.png",
+    "github": "https://github.com/your-repo",
+    "live": "https://b13-a08-tiles-gallery.vercel.app/"
+  },
+  {
+    "title": "The Dragon News",
+    "description": "Dragoon News is a responsive front-end web application build with react that delivers real-time news articles on a variety of topics, complete with user authentication for personalized access. ",
+    "tech": ["Next.js", "Tailwind", "DaisyUI" ,"MongoDB", "BetterAuth"],
+    "image": "/assets/the-dragon-news.png",
+    "github": "https://github.com/your-repo",
+    "live": "https://dragon-news-nextjs-rouge.vercel.app/"
+  },
   {
     "title": "KeenKeeper",
-    "description": "A relationship tracking web app to maintain meaningful connections.",
-    "tech": ["Next.js", "Tailwind", "MongoDB"],
-    "image": "https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwcHJvamVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "description": "KeenKeeper is a modern friendship management web application designed to help users stay connected and maintain meaningful relationships.",
+    "tech": ["Next.js", "Tailwind", "Recharts (for analytics charts)"],
+    "image": "/assets/KeenKeeper.png",
     "github": "https://github.com/your-repo",
-    "live": "https://your-live-site.com"
+    "live": "https://b13-a7-keen-keeper-code.vercel.app/"
   },
   {
-    "title": "Tile Gallery",
-    "description": "Modern responsive tile showcase with filtering and search.",
-    "tech": ["React", "Next.js", "CSS"],
-    "image": "https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwcHJvamVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "title": "DigiTools",
+    "description": "DigiTools is a modern and responsive Digital Tools Buying Website built using React.js and Tailwind CSS. It allows users to explore premium digital products like templates, productivity tools, and software services, and purchase them through an interactive cart system.",
+    "tech": ["Next.js", "Tailwind CSS", "DaisyUI"],
+    "image": "/assets/DigiTools.png",
     "github": "https://github.com/your-repo",
-    "live": "https://your-live-site.com"
-  },
-  {
-    "title": "Portfolio Website",
-    "description": "Personal portfolio with animations and modern UI.",
-    "tech": ["Next.js", "GSAP", "Framer Motion"],
-    "image": "https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwcHJvamVjdCUyMGltYWdlfGVufDB8fDB8fHww",
-    "github": "https://github.com/your-repo",
-    "live": "https://your-live-site.com"
+    "live": "https://digitools-platform-code.netlify.app/"
 }
 ]
-// "image": "/projects/portfolio.png",
