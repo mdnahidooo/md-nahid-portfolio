@@ -146,7 +146,7 @@ export default function About() {
                             Focus
                         </h3>
                         <p className="text-sm text-muted-foreground mt-2">
-                            I am a junior developer focused on building responsive and user-friendly web applications, with a strong focus on clean code, performance, and continuous learning.
+                            Currently learning <span className="font-extrabold text-blue-500">MongoDB</span> to strengthen my skills in database management and backend development.
                         </p>
                     </div>
 
