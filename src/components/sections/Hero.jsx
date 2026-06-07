@@ -103,7 +103,7 @@ export default function Hero() {
 
 
             <h1 className="hero-title mt-6 text-xl md:text-2xl font-bold tracking-tight overflow-hidden">
-                <span className="inline-block text-primary">Junior</span>{" "}
+                <span className="inline-block text-primary">Full-Stack</span>{" "}
                 <span className="inline-block text-primary">Developer</span>
             </h1>
 
