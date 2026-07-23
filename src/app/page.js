@@ -5,6 +5,7 @@ import Hero from "@/components/sections/Hero";
 import Skills from "@/components/sections/Skills";
 import TechStack from "@/components/sections/TechStack";
 import FeaturedProjects from "@/components/sections/FeaturedProjects";
+import Education from "@/components/sections/Education";
 ;
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About></About>
       <TechStack></TechStack>
       <Skills></Skills>
+      <Education></Education>
       <FeaturedProjects></FeaturedProjects>
       <Contact></Contact>
       <Footer></Footer>
