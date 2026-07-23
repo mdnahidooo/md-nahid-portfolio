@@ -109,13 +109,13 @@ export default function Hero() {
 
             {/* Role */}
             <p className="hero-desc mt-4 text-muted-foreground text-sm md:text-lg max-w-xl">
-                Building modern, responsive web experiences using Next.js and React with a focus on performance, usability, and clean frontend architecture.
+                Building modern, responsive web experiences using Next.js, Node.js and MongoDB with a focus on performance, usability, and clean architecture.
             </p>
 
             {/* Buttons */}
             <div className="mt-6 flex gap-3">
                 <a
-                    href="https://drive.google.com/file/d/191MkUJSiey3xPidkFO1Ez_VaaD5Xj3bX/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1sjHvLBBw8dW5xlzRfEZ9WlVxqFz9xmhB/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -125,7 +125,7 @@ export default function Hero() {
                     </Button>
                 </a>
 
-                <Link href="#contact">
+                <Link href="/contact">
                     <Button variant="outline" className="hero-btn rounded-lg px-6 flex items-center gap-2">
                         <FiSend className="text-base" />
                         Contact Me

@@ -47,7 +47,7 @@ export default function ModeToggle() {
                 <DropdownMenuSeparator />
 
                 {/* Accent Themes ONLY */}
-                <DropdownMenuItem onClick={() => setTheme("cyberpunk")}>
+                {/* <DropdownMenuItem onClick={() => setTheme("cyberpunk")}>
                     <Zap className="mr-2 h-4 w-4 text-fuchsia-500" />
                     Cyberpunk
                 </DropdownMenuItem>
@@ -70,7 +70,7 @@ export default function ModeToggle() {
                 <DropdownMenuItem onClick={() => setTheme("synthwave")}>
                     <Music className="mr-2 h-4 w-4 text-pink-500" />
                     Synthwave
-                </DropdownMenuItem>
+                </DropdownMenuItem> */}
 
             </DropdownMenuContent>
         </DropdownMenu>

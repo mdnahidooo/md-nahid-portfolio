@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "title": "DigiTools",
+    "subtitle": "Digital Tools Buying Platform",
+    "category": "Front-End",
+    "description": "DigiTools is a modern and responsive Digital Tools Buying Website built using React.js and Tailwind CSS. It allows users to explore premium digital products like templates, productivity tools, and software services, and purchase them through an interactive cart system.",
+    "longDescription": "DigiTools is an interactive front-end marketplace designed for digital creators and power users. Built for maximum speed and simplicity, it provides clean layout previewing, interactive tool categorization, and smooth shopping cart management.",
+    "thumbnail": "/assets/DigiTools.png",
+    "technologies": ["Next.js", "Tailwind CSS", "DaisyUI"],
+    "features": [
+      "Interactive Product Catalog: Browse premium templates, software, and productivity tools.",
+      "Shopping Cart System: Add items, update quantities, and prepare products for checkout.",
+      "Responsive Interface: Tailored for seamless mobile, tablet, and desktop browsing."
+    ],
+    "links": {
+      "live": "https://digitools-platform-code.netlify.app/",
+      "githubClient": "https://github.com/mdnahidooo/B13-A6-DigiTools-Platform-Code",
+      "githubServer": ""
+    },
+    "featured": false
+  },
+  {
+    "id": "2",
+    "title": "KeenKeeper",
+    "subtitle": "Friendship Management Web Application",
+    "category": "Front-End",
+    "description": "KeenKeeper is a modern friendship management web application designed to help users stay connected and maintain meaningful relationships.",
+    "longDescription": "KeenKeeper simplifies social contact management by offering visual relationship analytics, interaction logs, and activity reminders so users never lose touch with key personal or professional connections.",
+    "thumbnail": "/assets/KeenKeeper.png",
+    "technologies": ["Next.js", "Tailwind CSS", "Recharts"],
+    "features": [
+      "Relationship Dashboard: Visual analytics charts powered by Recharts to track connection strength.",
+      "Contact Log: Keep notes and history of key interactions with friends and networking peers.",
+      "Interactive Categorization: Organize contacts into custom categories and circles."
+    ],
+    "links": {
+      "live": "https://b13-a7-keen-keeper-code.vercel.app/",
+      "githubClient": "https://github.com/mdnahidooo/Keen-Keeper",
+      "githubServer": ""
+    },
+    "featured": false
+  },
+  {
+    "id": "3",
+    "title": "The Dragon News",
+    "subtitle": "Real-Time News Application",
+    "category": "Front-End",
+    "description": "The Dragon News is a responsive web application built with Next.js that delivers real-time news articles on a variety of topics, complete with user authentication for personalized access.",
+    "longDescription": "A comprehensive news portal providing readers with categorized journalism, trending headlines, and bookmarking capabilities with responsive DaisyUI components.",
+    "thumbnail": "/assets/the-dragon-news.png",
+    "technologies": ["Next.js", "Tailwind CSS", "DaisyUI", "MongoDB", "BetterAuth"],
+    "features": [
+      "Categorized News Feed: Browse breaking news across multiple interest categories.",
+      "User Authentication: Secure login flow for personalized reading lists and saved articles.",
+      "Responsive Layout: Multi-column grid optimized for mobile and desktop screens."
+    ],
+    "links": {
+      "live": "https://dragon-news-nextjs-rouge.vercel.app/",
+      "githubClient": "https://github.com/mdnahidooo/dragon-news",
+      "githubServer": ""
+    },
+    "featured": false
+  },
+  {
+    "id": "4",
+    "title": "Tiles Gallery",
+    "subtitle": "Tile Discovery & Showcase Platform",
+    "category": "Full-Stack",
+    "description": "A modern and responsive Tile Gallery Website built with Next.js. Users can browse, search, and explore detailed tile information with authentication and dynamic routing.",
+    "longDescription": "Tiles Gallery is a visual showcase for modern interior and architectural tile designs. It provides high-resolution preview modes, dynamic search filtering by material and color, and seamless design categorization.",
+    "thumbnail": "/assets/tiles-gallery.png",
+    "technologies": ["Next.js", "React.js", "HeroUI", "Tailwind CSS", "BetterAuth", "MongoDB"],
+    "features": [
+      "Tile Search & Discovery: Dynamic material and design search with detailed info pages.",
+      "Detailed Preview Mode: High-resolution previews, complete specs, and description modal views.",
+      "Featured Collections: Discover highlighted tile trends and categorized gallery listings."
+    ],
+    "links": {
+      "live": "https://b13-a08-tiles-gallery.vercel.app/",
+      "githubClient": "https://github.com/mdnahidooo/Tiles-Gallery",
+      "githubServer": ""
+    },
+    "featured": true
+  },
+  {
+    "id": "5",
+    "title": "LibraRoom",
+    "subtitle": "Library Study Room Booking Platform",
+    "category": "Full-Stack",
+    "description": "A secure library study room booking platform designed to efficiently track room availability, eliminate booking conflicts, and maximize resource utility for students.",
+    "longDescription": "LibraRoom solves university study space bottleneck issues by giving students real-time visibility into available quiet rooms. Built with explicit floor-by-floor filtering and time-slot collision validation to guarantee seamless room allocation.",
+    "thumbnail": "/assets/LibraRoom.png",
+    "technologies": ["Next.js", "Node.js", "Express.js", "MongoDB", "BetterAuth", "Tailwind CSS", "JWT Authentication"],
+    "features": [
+      "Dynamic Floor Filtering: Filter study spaces floor-by-floor in real-time.",
+      "Conflict-Free Booking Engine: Prevent overlapping time slot reservations.",
+      "User Reservation Portal: Track past and active room bookings easily."
+    ],
+    "links": {
+      "live": "https://libra-room-client.vercel.app/",
+      "githubClient": "https://github.com/mdnahidooo/libra-room-client",
+      "githubServer": "https://github.com/mdnahidooo/libra-room-server"
+    },
+    "featured": true
+  },
+  {
+    "id": "6",
+    "title": "PromptGrid",
+    "subtitle": "AI Prompt Sharing & Marketplace Platform",
+    "category": "Full-Stack",
+    "description": "A community-driven AI marketplace designed to share engineered prompts, simplify discovery, maximize asset utility, and provide complete administrative management control.",
+    "longDescription": "PromptGrid connects prompt engineers with creators and power users. Built as a full-stack platform, it features dynamic search, category discovery, secure digital payments via Stripe, and comprehensive administrative oversight to monitor platform activity.",
+    "thumbnail": "/assets/PromptGrid.png",
+    "technologies": ["Next.js", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "Stripe", "Recharts"],
+    "features": [
+      "Premium Marketplace: Unlock exclusive prompts via one-time Stripe payments.",
+      "Smart Tooling: One-click copy, bookmarking, and community ratings.",
+      "Admin Panel: Full moderation control over users, prompt approvals, and analytics."
+    ],
+    "links": {
+      "live": "https://prompt-grid-client.vercel.app/",
+      "githubClient": "https://github.com/mdnahidooo/prompt-grid-client",
+      "githubServer": "https://github.com/mdnahidooo/prompt-grid-server"
+    },
+    "featured": true
+  }
+]

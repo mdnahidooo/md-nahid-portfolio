@@ -58,11 +58,12 @@ export default function Footer() {
 
                         <ul className="space-y-3 text-sm text-muted-foreground">
                             {[
-                                { name: "Explore Home", href: "#home" },
-                                { name: "About Me", href: "#about" },
-                                { name: "Selected Work", href: "#projects" },
-                                { name: "Tech Stack", href: "#skills" },
-                                { name: "Let’s Connect", href: "#contact" },
+                                // { name: "Home", href: "/home" },
+                                { name: "About Me", href: "/about" },
+                                { name: "Skills", href: "/skills" },
+                                { name: "Projects", href: "/projects" },
+                                { name: "Education", href: "/education" },
+                                { name: "Contact", href: "/contact" },
                             ].map((item) => (
                                 <li key={item.name}>
                                     <Link

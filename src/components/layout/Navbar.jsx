@@ -7,19 +7,28 @@ import ModeToggle from "../ModeToggle";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
 
+    const pathname = usePathname();
+
+    // Dynamic route definitions matching Next.js App Router pages
     const navItems = [
-        { name: "Home", href: "#home" },
-        { name: "About", href: "#about" },
-        { name: "Projects", href: "#projects" },
-        { name: "Experience", href: "#about" },
-        { name: "Skills", href: "#skills" },
-        { name: "Community", href: "#contact" },
-        { name: "Contact", href: "#contact" },
+        { name: "Home", href: "/" },
+        { name: "About Me", href: "/about" },
+        { name: "Skills", href: "/skills" },
+        { name: "Projects", href: "/projects" },
+        { name: "Education", href: "/education" },
+        { name: "Contact", href: "/contact" },
     ];
+
+    // Helper to check if link is currently active
+    const isActive = (href) => {
+        if (href === "/") return pathname === "/";
+        return pathname.startsWith(href);
+    };
 
     return (
         <>
@@ -42,7 +51,7 @@ export default function Navbar() {
 
                         {/* LEFT - Logo */}
                         <Link
-                            href="#home"
+                            href="/"
                             className="group relative text-lg md:text-xl tracking-wide text-foreground/90 transition-colors"
                         >
                             <span className="font-[Style_Script] text-[22px] md:text-[26px]">
@@ -75,7 +84,7 @@ export default function Navbar() {
                         {/* RIGHT SIDE */}
                         <div className="ml-auto flex items-center gap-3">
                             <ModeToggle />
-                            <Link href="#contact">
+                            <Link href="/contact">
                                 <Button className="rounded-lg px-5 hover:scale-105 transition-transform duration-300">
                                     Hire Me
                                 </Button>

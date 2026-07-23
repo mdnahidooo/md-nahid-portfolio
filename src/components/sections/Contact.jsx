@@ -172,7 +172,7 @@ export default function Contact() {
 
                             {/* GITHUB */}
                             <a
-                                href="https://github.com"
+                                href="https://github.com/mdnahidooo"
                                 target="_blank"
                                 className="flex items-center gap-2 px-3 py-2 rounded-md bg-black/30 hover:bg-black/50 transition"
                             >
