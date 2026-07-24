@@ -402,7 +402,7 @@ export default function Contact() {
 
                             {/* TWITTER */}
                             <a
-                                href="https://twitter.com"
+                                href="https://www.facebook.com/md.nahidooo/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 px-3 py-2 rounded-md bg-sky-500/10 text-sky-400 hover:bg-sky-500/20 transition"
